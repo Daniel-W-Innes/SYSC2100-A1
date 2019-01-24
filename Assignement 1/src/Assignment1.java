@@ -1,3 +1,5 @@
+import java.util.Random;
+
 public class Assignment1 {
 
     public static int c(int n, int k) {
@@ -13,9 +15,9 @@ public class Assignment1 {
     public static int P(int n) {
         if (n == 1) {
             return 2;
-        }else if (n == 2){
+        } else if (n == 2) {
             return 3;
-        }else {
+        } else {
             return P(n - 1) + P(n - 2);
         }
     }
@@ -36,5 +38,18 @@ public class Assignment1 {
     }
 
     public static void reverseDigits(int n) {
+        System.out.print(n%10);
+        if (n > 0) {
+            reverseDigits((n - n % 10) / 10);
+        }
+    }
+
+    public static int myBinarySearch(String[] anArray, int first, int last, String value) {
+        if(last-first<=1){
+
+        }
+
+
+        return 0;
     }
 }
