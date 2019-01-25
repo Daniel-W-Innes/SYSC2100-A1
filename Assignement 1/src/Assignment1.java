@@ -1,5 +1,3 @@
-import java.util.Random;
-
 public class Assignment1 {
 
     public static int c(int n, int k) {
@@ -45,11 +43,13 @@ public class Assignment1 {
     }
 
     public static int myBinarySearch(String[] anArray, int first, int last, String value) {
-        if(last-first<=1){
-
+            int mid = (last + first)/2;
+        if (value.compareTo(anArray[mid]) < 0){
+            return myBinarySearch(anArray,first,mid,value);
+        }else if (value.compareTo(anArray[mid]) > 0) {
+            return myBinarySearch(anArray, mid, last, value);
+        } else{
+            return mid;
         }
-
-
-        return 0;
     }
 }
