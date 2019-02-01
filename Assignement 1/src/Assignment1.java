@@ -14,11 +14,11 @@ public class Assignment1 {
 
     public static int c(int n, int k) {
         if (k == n || k == 1 || k == 0) {
-            return 1;
+            return 1; //Best cases that result in one
         } else if (k > n) {
-            return 0;
+            return 0; //Best cases that result in two
         } else {
-            return c(n - 1, k - 1) + c(n - 1, k);
+            return c(n - 1, k - 1) + c(n - 1, k); //Recursive call
         }
     }
 
@@ -31,11 +31,11 @@ public class Assignment1 {
 
     public static int P(int n) {
         if (n == 1) {
-            return 2;
+            return 2; //Best cases that result in two
         } else if (n == 2) {
-            return 3;
+            return 3; //Best cases that result in three
         } else {
-            return P(n - 1) + P(n - 2);
+            return P(n - 1) + P(n - 2); //Recursive call
         }
     }
 
@@ -47,9 +47,9 @@ public class Assignment1 {
      */
 
     public static void writeLine(char ch, int n) {
-        System.out.print(ch);
+        System.out.print(ch); //Print the character
         if (n > 0) {
-            writeLine(ch, n - 1);
+            writeLine(ch, n - 1); //Recursive call
         }
     }
 
@@ -62,10 +62,10 @@ public class Assignment1 {
      */
 
     public static void writeBlock(char ch, int n, int m) {
-        writeLine(ch, n);
-        System.out.println();
+        writeLine(ch, n); //Print a line of characters
+        System.out.println(); //Move to next line
         if (m > 0) {
-            writeBlock(ch, n, m - 1);
+            writeBlock(ch, n, m - 1); //Recursive call
         }
     }
 
@@ -77,9 +77,9 @@ public class Assignment1 {
      */
 
     public static void reverseDigits(int n) {
-        System.out.print(n % 10);
+        System.out.print(n % 10); //print the last character
         if (n > 0) {
-            reverseDigits((n - n % 10) / 10);
+            reverseDigits((n - n % 10) / 10); //Recursive call
         }
     }
 
@@ -94,12 +94,12 @@ public class Assignment1 {
      */
 
     public static int myBinarySearch(String[] anArray, int first, int last, String value) {
-        int mid = (last + first) / 2;
-        if (value.compareTo(anArray[mid]) < 0) {
-            return myBinarySearch(anArray, first, mid, value);
-        } else if (value.compareTo(anArray[mid]) > 0) {
-            return myBinarySearch(anArray, mid, last, value);
-        } else {
+        int mid = (last + first) / 2; //Find the midpoint
+        if (value.compareTo(anArray[mid]) < 0) { //If the string is before the midpoint
+            return myBinarySearch(anArray, first, mid, value); //Recursive call in the first half
+        } else if (value.compareTo(anArray[mid]) > 0) { //If the string is after the midpoint
+            return myBinarySearch(anArray, mid, last, value); //Recursive call in the second half
+        } else { //If the string is equal to the midpoint
             return mid;
         }
     }

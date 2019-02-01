@@ -17,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Assignment1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+            <state relative-caret-position="1058">
+              <caret line="102" column="23" lean-forward="true" selection-start-line="102" selection-start-column="23" selection-end-line="102" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -78,7 +78,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549032863606" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549033479366" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Fourier-Transform-drawing/Fourier Transform drawing" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -117,7 +117,7 @@
       <workItem from="1548555054650" duration="426000" />
       <workItem from="1548780035697" duration="1303000" />
       <workItem from="1548944239641" duration="244000" />
-      <workItem from="1549031259632" duration="1602000" />
+      <workItem from="1549031259632" duration="2217000" />
     </task>
     <task id="LOCAL-00001" summary="reverseDigits">
       <created>1548344640832</created>
@@ -133,11 +133,18 @@
       <option name="project" value="LOCAL" />
       <updated>1548446677491</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="JavaDoc">
+      <created>1549032902765</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1549032902765</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14425000" />
+    <option name="totallyTimeSpent" value="15040000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1295" height="1408" extended-state="0" />
@@ -183,14 +190,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="reverseDigits" />
     <MESSAGE value="binary search" />
-    <option name="LAST_COMMIT_MESSAGE" value="binary search" />
+    <MESSAGE value="JavaDoc" />
+    <option name="LAST_COMMIT_MESSAGE" value="JavaDoc" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assignment1.java" />
     <entry file="file://$PROJECT_DIR$/src/Assignment1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+        <state relative-caret-position="1058">
+          <caret line="102" column="23" lean-forward="true" selection-start-line="102" selection-start-column="23" selection-end-line="102" selection-end-column="23" />
         </state>
       </provider>
     </entry>
