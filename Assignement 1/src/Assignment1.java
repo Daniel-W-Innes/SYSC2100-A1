@@ -1,9 +1,24 @@
+import java.util.Scanner;
+
 /**
  * @author Daniel Innes 101067175
  */
 
 public class Assignment1 {
 
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Input to n and k for the Spock's problem:");
+        System.out.println(c(scanner.nextInt(),scanner.nextInt()));
+        System.out.println("Input to n for the organizing a Parade:");
+        System.out.println(P(scanner.nextInt()));
+        System.out.println("Input to ch and n for repeat a character:");
+        writeLine(scanner.next().charAt(0),scanner.nextInt());
+        System.out.println("Input to ch, n, and m for writeBlock:");
+        writeBlock(scanner.next().charAt(0),scanner.nextInt(),scanner.nextInt());
+        System.out.println("Input to n for reverse a given number:");
+        reverseDigits(scanner.nextInt());
+    }
     /**
      * Spock's problem
      *
